@@ -151,7 +151,7 @@ def show_products():
     for key in products:
         print(key["id"],"\t",key["name"],"\t",key["price"],"\t",key["count"],"\t")
 read_data()
-#show_menu()
+show_menu()
 
 
 
